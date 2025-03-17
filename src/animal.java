@@ -1,3 +1,3 @@
 abstract class animal {
-    public static int animalCount;
+    static int animalCount;
 }

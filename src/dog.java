@@ -2,7 +2,7 @@ class Dog extends animal {
     String name;
     int distanceLimit;
     int distanceLimitSwim;
-    public static int dogCount;
+    static int dogCount;
 
     public static int getAnimalCount() {
         return animalCount;

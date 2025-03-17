@@ -1,7 +1,7 @@
 class Cat extends animal {
     String name;
     int distanceLimit;
-    public static int catCount;
+    static int catCount;
 
     public static int getAnimalCount() {
         return animalCount;
